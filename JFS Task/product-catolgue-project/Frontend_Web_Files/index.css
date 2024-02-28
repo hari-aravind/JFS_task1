@@ -1,0 +1,24 @@
+:root {
+  --primary: #91162b;
+  --secondary: #0b3c0b;
+  --primary-light: #c1818ca4;
+  --secondary-light: #72bd7296;
+  --white: #ffffff;
+  --black: #000000;
+  --border: #b6b4b4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+}

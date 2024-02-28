@@ -1,0 +1,156 @@
+.App-header h1 {
+  text-align: center;
+  color: var(--primary);
+  background: var(--primary-light);
+  padding: 1rem;
+  font-size: 25px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.button-group button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Inter';
+}
+
+.button-group button:disabled {
+  opacity: 0.5;
+  cursor: Not-Allowed;
+}
+
+.button-group .primary-btn {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.button-group .secondary-btn {
+  background: var(--secondary-light);
+  color: var(--secondary);
+}
+
+.button-group .primary-btn:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.button-group .secondary-btn:hover {
+  background: var(--secondary);
+  color: var(--white);
+}
+
+.addForm {
+  width: 50%;
+  margin: 2rem auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.addForm form {
+  text-align: center;
+}
+
+.addForm h3 {
+  font-size: 25px;
+  margin: 1rem 0;
+  text-align: center;
+  color: var(--primary);
+}
+
+.addForm .form-control {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: 1px solid var(--border);
+  margin: 10px 0;
+  padding: 10px 15px;
+  font-family: 'Inter';
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.addForm .form-control::-webkit-input-placeholder {
+  color: var(--border);
+  font-weight: 500;
+}
+
+.addForm .submit-btn {
+  margin: 1rem auto;
+  text-align: center;
+  padding: 12px 25px;
+  background: var(--secondary);
+  color: var(--white);
+  font-size: 16px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.addForm .submit-btn:hover,
+.addForm .submit-btn:focus {
+  background: var(--primary);
+}
+
+.table.table-responsive {
+  overflow-x: auto;
+}
+
+.table table {
+  width: 65%;
+  margin: 1rem auto;
+  box-shadow: rgba(0, 0, 0, 0.15) -1px 3px 14px 0px;
+  border-collapse: collapse;
+}
+
+.table table thead {
+  background-color: var(--secondary-light);
+}
+
+.table table tr th {
+  color: var(--secondary);
+}
+
+.table table tr th,
+.table table tr td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.table table tbody tr:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.success {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Inter';
+  width: 80%;
+  margin: auto;
+  background: var(--secondary-light);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.success span {
+  cursor: pointer;
+}
